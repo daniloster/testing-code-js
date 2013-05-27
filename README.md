@@ -2,7 +2,7 @@ TestingCode
 ===========
 It is a javascript library to support unity tests. It was made like that way to improve flexibility to create and run tests. It, firstly, run at node.js that has a portable version.
 Link to portable node.js: http://imsky.co/files/nodejs-0.10.0.zip
-Onde that perform the download, it is enough put the directory where was extracted in enviroment variable PATH of operational system.
+Once that perform the download, it is enough put the directory where was extracted in enviroment variable PATH of operational system.
 
 How to use
 ==========
