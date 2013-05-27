@@ -83,7 +83,7 @@ var options = {
   }
 }; 
 ```
-So, lets improve the old example. Below we are going to execute 2 test classes and the last one has an implementation of setup function to initialize the argument 'operator1'. Also, it will put in console 2 sentences.
+So, lets improve the old example. Below, we are going to execute 2 test classes and the last one has an implementation of setup function to initialize the argument 'operator1'. Also, it will put in console 2 sentences, one when perform setup and the other when perform finalize.
 ```
 (function () {
   
