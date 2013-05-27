@@ -43,7 +43,7 @@ Lets start with that basic example.
 })();
 ```
 
-Through of TestingCode class it is possible makes test classes and run it. In the case above, we have a class Math that contains a function "soma", which must be tested.
+Through of TestingCode class it is possible makes test classes and run it. In the case above, we have a class Math that contains a function "sum", which must be tested.
 
 To create a test class
 ======================
@@ -83,7 +83,7 @@ var options = {
   }
 }; 
 ```
-So, lets improve the old example. Below, we are going to execute 2 test classes and the last one has an implementation of setup function to initialize the argument 'operator1'. Also, it will put in console 2 sentences, one when perform setup and the other when perform finalize.
+So, lets improve the old example. Below, we are going to execute 2 test classes and the last one has an implementation of setup function to initialize the argument 'operator1'. Also, it will put 2 sentences in console, one when perform setup and the other when perform finalize.
 ```
 (function () {
   
