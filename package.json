@@ -17,5 +17,6 @@
 		"type" : "git",
 	  	"url" : "https://github.com/daniloster/testing-code-js.git"
 	},
-	"dependencies": {}
+	"dependencies": {},
+    "engines": { "node": "*" }
 }
