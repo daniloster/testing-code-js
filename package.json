@@ -1,0 +1,19 @@
+{
+	"name": "testing-code-js",
+	"main":"TestingCode.js",
+	"version": "0.0.1",
+	"keywords":["jsunit","unity","test","tests"],
+	"homepage":"https://github.com/daniloster/testing-code-js",
+	"license" : "BSD",
+	"author":{
+		"name" : "Danilo Castro",
+		"email" : "daniloster@gmail.com",
+		"url" : "http://www.danilodecastro.com/"
+	},
+	"files":["TestingCode.js"],
+	"repository":{
+		"type" : "git",
+	  	"url" : "https://github.com/daniloster/testing-code-js.git"
+	},
+	"dependencies": {}
+}

@@ -1,17 +1,6 @@
 (function(){
   var UndefinedType = typeof undefined, ObjectType = typeof {};
-	if(!Object.prototype.extend)Object.prototype.extend=function(padrao){
-		var i,novo={},custom=this;
-		for(i in padrao){if(i!=='extend'){
-			if(typeof custom[i]===UndefinedType){
-				novo[i]=padrao[i];
-			}else{
-				novo[i]=custom[i];
-				if(typeof padrao[i]!==UndefinedType){
-					novo[(i.indexOf('$super_')>-1?'$':'$super_')+i]=padrao[i];
-				}
-			}}}return novo;};
-		
+	if(!Object.prototype.extend)Object.prototype.extend=function(padrao){var i,novo={},custom=this;for(i in padrao){if(i!=='extend'){if(typeof custom[i]===UndefinedType){novo[i]=padrao[i];}else{novo[i]=custom[i];if(typeof padrao[i]!==UndefinedType){novo[(i.indexOf('$super_')>-1?'$':'$super_')+i]=padrao[i];}}}}return novo;};
     if(!Array.prototype.reverse){Array.prototype.reverse=function(){var a=new Array();for(var i=this.length-1;i>-1;i--){a.push(this[i]);}return a;};}
 	if(!Array.prototype.map){Array.prototype.map=function(fun/*,thisp*/){var len=this.length;if(typeof fun!="function")throw new TypeError();var res=new Array(len),thisp=arguments[1];for (var i=0;i<len;i++){if (i in this)res[i]=fun.call(thisp,this[i],i,this);}return res;};}
     if(!Array.prototype.each){Array.prototype.each=function(fun/*,thisp*/){var len=this.length;if(typeof fun!="function")throw new TypeError();var thisp=arguments[1];for(var i=0;i<len;i++){if (i in this)fun.call(thisp,this[i],i,this);}};}
