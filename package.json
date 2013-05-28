@@ -11,6 +11,8 @@
 		"url" : "http://www.danilodecastro.com/"
 	},
 	"files":["TestingCode.js"],
+	"description": "Node.js module to create Test Classes and run it",
+    "preferGlobal": "true",
 	"repository":{
 		"type" : "git",
 	  	"url" : "https://github.com/daniloster/testing-code-js.git"
