@@ -43,6 +43,7 @@
 				}
 			});
 			TestingCode.log('@@ Total tests executed',context.getExecutionTimes(),'/',context.getTotalTests()+'.','\n * Successfuls:',context.getTotalSuccess()+',','Failures:',context.getTotalFailures()+', Undefineds:'+context.getTotalUndefined()+'.');
+			return context;
 		},
 		log:console.log,
 		settings:{
