@@ -39,6 +39,7 @@
 				successed:false,
 				failed:false,
 				executed:false,
+				assertMessages:[],
 				args:{},
 				asserts:{},
 				setArgs:function(args) {

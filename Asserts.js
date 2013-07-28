@@ -40,6 +40,7 @@
 					if (typeof methodName!==null&&typeof methodName!==UndefinedType)
 						msg+='.'+methodName;
 					msg+='] ' + message;
+					context.assertMessages.push(msg);
 					log(msg);
 				}
 			};
