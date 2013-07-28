@@ -1,7 +1,7 @@
 {
 	"name": "testing-code-js",
 	"main":"TestingCode.js",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"keywords":["jsunit","unity","test","tests"],
 	"homepage":"https://github.com/daniloster/testing-code-js",
 	"license" : "BSD",
