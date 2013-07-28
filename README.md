@@ -38,7 +38,6 @@ Lets start with that basic example.
 		}
 	};
 	
-	var math = new MathTests();
 	TestingCode.run([math]);
   
 })();
